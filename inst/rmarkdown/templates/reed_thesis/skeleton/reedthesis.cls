@@ -302,14 +302,13 @@
     \vfil
     A Thesis \\
     Presented to \\
-    \@thedivisionof \ \@division \\
-    Reed College
+    Georgetown College
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
     In Partial Fulfillment \\
     of the Requirements for the Degree \\
-    Bachelor of Arts
+    Bachelor of Science in Mathematics
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \bigskip
@@ -327,12 +326,12 @@
 %% Approved for the division page
   \cleardoublepage
   {\fontsize{12}{14}
-  \setbox0=\hbox{Approved for the \@approvedforthe}
+  \setbox0=\hbox{Approved by }
   \thispagestyle{empty}
   \null\vfil		% just below center of page
   \par\vskip 6cm	% below center, not center
   \centerline{\copy0}	% approved
-  \centerline{(\@department)} %major
+
   \vskip 1cm		%space to sign
   \centerline{\makebox[\wd0][c]{\hrulefill}
 	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\hrulefill} \fi}
